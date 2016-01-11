@@ -21,11 +21,11 @@
 	 $.fn.deckparty = function( options ) {
 
 		var settings = $.extend({}, $.fn.deckparty.defaults, options);
-        var deckHTML = '';
+        	var deckHTML = '';
 		
-          /**
-	    * INIT
-	    */
+        /**
+	* INIT
+	*/
         $.fn.deckparty.init(settings);
 
 	   /**
@@ -33,11 +33,11 @@
 	    */ 		 
 	    var clickEventType =((document.ontouchstart!==null)?'click':'touchstart');	
 
-        /**
-	* clickEventType
-        * action of click or touch event
-	*/ 
-        $("."+settings.anchor).live(clickEventType, function(){
+           /**
+  	   * clickEventType
+           * action of click or touch event
+   	   */ 
+           $("."+settings.anchor).live(clickEventType, function(){
 
 			var classNames = this.className.split(' ');
 
@@ -95,8 +95,8 @@
 		 }	
 		}
 
-		var url   		= settings.seturl;
-		var param 		= settings.deck;		
+		var url   	= settings.seturl;
+		var param 	= settings.deck;	
 		var urlParam    = '';	
 		var params      = '&'+daten;	
 
@@ -149,8 +149,8 @@
 	*/
 	 $.fn.deckparty.server = function( settings ) {
 
-		var url   		= settings.url;
-		var param 		= settings.deck;
+		var url   	= settings.url;
+		var param 	= settings.deck;
 		var dataHash 	= '&dataHash='+settings.dataHash; 
 		
 		var urlParam 	= url + param + dataHash;	
