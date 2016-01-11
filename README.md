@@ -1,5 +1,5 @@
 # deckparty.js
-A JQuery plugin to manage decks for HTML5 apps
+a JQuery plugin to manage decks for HTML5 apps
 
 
 ### Standalone
