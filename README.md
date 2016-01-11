@@ -1,8 +1,4 @@
-# deckparty_app
-deckparty.js - Ein JQuery Plugin für das APP DECK Management
-
 # deckparty JS
-
 A JQuery plugin to manage decks for HTML5 apps
 
 
