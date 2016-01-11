@@ -59,6 +59,9 @@ $().deckparty({	fields : ['data-field-1','data-field-2']  });
 <div class="data-field-1"> ... </div>
 <span class="data-field-2"> ... </span>
 ```
+### Template Engine
+```js
+$().deckparty({	template	: 'templates/deck-profile-01.html' });
 
 ### deckparty(polling,polltime)
 A deck can be data polling 
